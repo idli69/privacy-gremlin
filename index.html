@@ -7,9 +7,9 @@
     <title>Privacy Gremlin</title>
   </head>
   <body class="bg-background text-fg font-display">
-    <!-- NAVBAR NECTION -->
+    <!--NAVBAR SECTION BEGIN-->
     <nav
-      class="bg-elevated flex h-15 min-w-full items-center justify-between p-3"
+      class="bg-elevated flex min-h-15 min-w-full items-center justify-between p-3"
     >
       <div class="flex items-center gap-1">
         <img
@@ -20,18 +20,15 @@
         <p class="text-[clamp(1.25rem,4vw,2rem)] font-bold">Privacy Gremlin</p>
       </div>
 
-      <button
-        class="border-border hover:bg-accent hover:text-background hover:border-accent active:bg-accent active:text-background active:border-accent w-fit border-2 px-4 py-2 text-center font-mono text-[clamp(0.8rem,3vw,1.2rem)] font-bold transition-all duration-300 ease-in-out hover:-translate-y-0.5"
-        type="button"
-      >
+      <button class="btn-primary text-[clamp(0.8rem,3vw,1.2rem)]" type="button">
         Take Quiz
       </button>
     </nav>
-
-    <!--HERO SECTION-->
+    <!--NAVBAR SECTION END-->
+    <!--HERO SECTION BEGIN-->
     <section
       id="hero"
-      class="grid min-h-14/15 grid-cols-1 gap-8 px-4 py-8 md:grid-cols-5 md:items-center md:px-8 md:py-20"
+      class="grid min-h-[calc(100vh-60px)] grid-cols-1 gap-8 px-4 py-8 md:grid-cols-5 md:items-center md:px-8 md:py-20"
     >
       <div
         id="hero-img"
@@ -45,7 +42,7 @@
       </div>
       <div
         id="hero-text"
-        class="md:items:start order-2 flex max-w-xl flex-col items-center space-y-5 text-center md:order-2 md:col-span-3 md:text-left"
+        class="order-2 flex max-w-xl flex-col items-center space-y-5 text-center md:order-2 md:col-span-3 md:items-start md:text-left"
       >
         <h1 class="text-[clamp(2rem,4vw,3.2rem)] font-bold">
           Find out how cursed your privacy habits are.
@@ -54,12 +51,9 @@
           A tiny privacy checkup for people who know they should be more careful
           online, but keep ignoring it.
         </p>
-        <button
-          class="border-border hover:bg-background hover:text-accent hover:border-surface active:bg-accent active:text-background active:border-accent w-fit border-2 p-4 text-center font-mono text-xl font-bold transition-all duration-300 ease-in-out hover:-translate-y-0.5"
-        >
-          Quiz Yourself
-        </button>
+        <button class="btn-ghost text-xl" type="button">Quiz Yourself</button>
       </div>
     </section>
+    <!--HERO SECTION END-->
   </body>
 </html>
