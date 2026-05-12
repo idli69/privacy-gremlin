@@ -7,14 +7,11 @@
     <title>Privacy Gremlin</title>
   </head>
   <body class="bg-background text-fg font-display">
-    <!-- Navbar Section -->
-    <!-- navbar is a flex container with min-width to fit its content -->
-    <!-- padding of 3rem and justify-between adds space between -->
+    <!-- NAVBAR NECTION -->
     <nav
-      class="bg-elevated flex h-1/15 min-w-full items-center justify-between p-3"
+      class="bg-elevated flex h-15 min-w-full items-center justify-between p-3"
     >
       <div class="flex items-center gap-1">
-        <!-- Margin right and width -->
         <img
           src="./assets/images/gremlins/magnifying.png"
           alt="Gremlin picture"
@@ -23,7 +20,6 @@
         <p class="text-[clamp(1.25rem,4vw,2rem)] font-bold">Privacy Gremlin</p>
       </div>
 
-      <!-- hover and active effects, width - fit-content -->
       <button
         class="border-border hover:bg-accent hover:text-background hover:border-accent active:bg-accent active:text-background active:border-accent w-fit border-2 px-4 py-2 text-center font-mono text-[clamp(0.8rem,3vw,1.2rem)] font-bold transition-all duration-300 ease-in-out hover:-translate-y-0.5"
         type="button"
@@ -32,13 +28,14 @@
       </button>
     </nav>
 
+    <!--HERO SECTION-->
     <section
       id="hero"
-      class="grid h-14/15 grid-cols-1 gap-8 px-4 py-8 md:grid-cols-5 md:items-center md:px-8 md:py-20"
+      class="grid min-h-14/15 grid-cols-1 gap-8 px-4 py-8 md:grid-cols-5 md:items-center md:px-8 md:py-20"
     >
       <div
         id="hero-img"
-        class="order-1 flex justify-end md:order-1 md:col-span-2"
+        class="order-1 flex justify-center md:order-1 md:col-span-2 md:justify-end"
       >
         <img
           src="./assets/images/gremlins/hero-gremlin-removebg-preview.png"
@@ -46,11 +43,14 @@
           class="w-56 max-w-full md:w-72 lg:w-80"
         />
       </div>
-      <div id="hero-text" class="max-w-xl space-y-5 md:order-2 md:col-span-3">
+      <div
+        id="hero-text"
+        class="md:items:start order-2 flex max-w-xl flex-col items-center space-y-5 text-center md:order-2 md:col-span-3 md:text-left"
+      >
         <h1 class="text-[clamp(2rem,4vw,3.2rem)] font-bold">
           Find out how cursed your privacy habits are.
         </h1>
-        <p class="text-accent-dark text-[clamp(1rem,2vw,1.5rem)]">
+        <p class="text-accent-dark text-[clamp(.8rem,2vw,1.2rem)]">
           A tiny privacy checkup for people who know they should be more careful
           online, but keep ignoring it.
         </p>
