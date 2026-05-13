@@ -1,0 +1,212 @@
+[
+  {
+    "text": "How do you usually create passwords?",
+    "options": [
+      {
+        "text": "I reuse the same password everywhere",
+        "points": 0
+      },
+      {
+        "text": "I use small changes to the same password",
+        "points": 1
+      },
+      {
+        "text": "I create different passwords for important accounts",
+        "points": 2
+      },
+      {
+        "text": "I use a password manager with strong unique passwords",
+        "points": 3
+      }
+    ]
+  },
+  {
+    "text": "Do you use two-factor authentication?",
+    "options": [
+      {
+        "text": "No, I do not use it",
+        "points": 0
+      },
+      {
+        "text": "Only when a website forces me",
+        "points": 1
+      },
+      {
+        "text": "Yes, on my important accounts",
+        "points": 2
+      },
+      {
+        "text": "Yes, with an authenticator app or security key",
+        "points": 3
+      }
+    ]
+  },
+  {
+    "text": "What do you do before clicking a suspicious link?",
+    "options": [
+      {
+        "text": "I click it if it looks interesting",
+        "points": 0
+      },
+      {
+        "text": "I check the message quickly",
+        "points": 1
+      },
+      {
+        "text": "I check the sender and link preview",
+        "points": 2
+      },
+      {
+        "text": "I verify the source before opening anything",
+        "points": 3
+      }
+    ]
+  },
+  {
+    "text": "How do you handle app permissions?",
+    "options": [
+      {
+        "text": "I allow whatever the app asks for",
+        "points": 0
+      },
+      {
+        "text": "I allow permissions if the app seems safe",
+        "points": 1
+      },
+      {
+        "text": "I deny permissions that feel unnecessary",
+        "points": 2
+      },
+      {
+        "text": "I regularly review and remove unnecessary permissions",
+        "points": 3
+      }
+    ]
+  },
+  {
+    "text": "How often do you update your apps and devices?",
+    "options": [
+      {
+        "text": "Almost never",
+        "points": 0
+      },
+      {
+        "text": "Only when something stops working",
+        "points": 1
+      },
+      {
+        "text": "Every now and then",
+        "points": 2
+      },
+      {
+        "text": "Regularly, especially security updates",
+        "points": 3
+      }
+    ]
+  },
+  {
+    "text": "How do you use public Wi-Fi?",
+    "options": [
+      {
+        "text": "I log into anything normally",
+        "points": 0
+      },
+      {
+        "text": "I avoid banking but use other accounts",
+        "points": 1
+      },
+      {
+        "text": "I avoid sensitive accounts on public Wi-Fi",
+        "points": 2
+      },
+      {
+        "text": "I use mobile data or a trusted VPN for sensitive tasks",
+        "points": 3
+      }
+    ]
+  },
+  {
+    "text": "How much personal info do you share on social media?",
+    "options": [
+      {
+        "text": "A lot, including location and daily details",
+        "points": 0
+      },
+      {
+        "text": "Some personal details without thinking much",
+        "points": 1
+      },
+      {
+        "text": "I avoid sharing sensitive information",
+        "points": 2
+      },
+      {
+        "text": "I share very little and check privacy settings",
+        "points": 3
+      }
+    ]
+  },
+  {
+    "text": "What do you do when a website asks to save your card or login details?",
+    "options": [
+      {
+        "text": "I save them for convenience",
+        "points": 0
+      },
+      {
+        "text": "I save them on websites I use often",
+        "points": 1
+      },
+      {
+        "text": "I avoid saving sensitive details on most websites",
+        "points": 2
+      },
+      {
+        "text": "I use trusted tools and avoid saving details randomly",
+        "points": 3
+      }
+    ]
+  },
+  {
+    "text": "How do you check if a website is trustworthy?",
+    "options": [
+      {
+        "text": "I do not check",
+        "points": 0
+      },
+      {
+        "text": "I check if it looks professional",
+        "points": 1
+      },
+      {
+        "text": "I check the URL and HTTPS lock",
+        "points": 2
+      },
+      {
+        "text": "I check the URL, HTTPS, reputation, and warning signs",
+        "points": 3
+      }
+    ]
+  },
+  {
+    "text": "How do you deal with old accounts you no longer use?",
+    "options": [
+      {
+        "text": "I leave them as they are",
+        "points": 0
+      },
+      {
+        "text": "I forget about them unless there is a problem",
+        "points": 1
+      },
+      {
+        "text": "I delete some old accounts when I remember",
+        "points": 2
+      },
+      {
+        "text": "I regularly delete or secure unused accounts",
+        "points": 3
+      }
+    ]
+  }
+]

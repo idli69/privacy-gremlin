@@ -2,6 +2,21 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
 @import "tailwindcss";
 
+:root {
+  --color-background: oklch(0.2 0.012 186);
+  --color-surface: oklch(0.25 0.025 175);
+  --color-elevated: oklch(0.3 0.018 178);
+  --color-fg: oklch(0.9 0.025 90);
+  --color-muted: oklch(0.75 0.025 155);
+  --color-accent: oklch(0.8 0.085 175);
+  --color-accent-dark: oklch(0.6 0.085 173);
+  --color-border: oklch(0.37 0.03 177);
+  --color-gremlin: oklch(0.33 0.02 176);
+  --color-success: oklch(0.75 0.1 137);
+  --color-warning: oklch(0.8 0.11 80);
+  --color-danger: oklch(0.67 0.14 22);
+}
+
 @theme {
   --color-background: oklch(0.2 0.012 186);
   --color-surface: oklch(0.25 0.025 175);
@@ -36,4 +51,27 @@
   .flex-center {
     @apply flex items-center justify-center;
   }
+}
+
+/* Base element container */
+progress {
+  appearance: none; /* Required to override default styles */
+  width: 100%;
+  height: 10px;
+}
+
+/* Chrome, Safari, and newer Edge - Background */
+progress::-webkit-progress-bar {
+  background-color: var(--color-elevated);
+}
+
+/* Chrome, Safari, and newer Edge - Progress value */
+progress::-webkit-progress-value {
+  background-color: var(--color-accent-dark);
+  transition: width 0.3s ease; /* Smooth transition when value changes */
+}
+
+/* Firefox - Progress value */
+progress::-moz-progress-bar {
+  background-color: var(--color-accent-dark);
 }
