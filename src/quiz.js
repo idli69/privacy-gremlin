@@ -1,7 +1,7 @@
 let questions = [];
 let qsIndex = 0;
 let score = 0;
-let maxScore = 0;
+let maxScore = 30;
 
 const $ = (id) => document.getElementById(id);
 
@@ -11,7 +11,6 @@ const resultScreen = $("result-screen");
 
 const questionElement = $("question");
 const optionsElement = $("options");
-const progressBar = $("progress-bar");
 
 const nextBtn = $("next-btn");
 const startBtn = $("start-btn");
@@ -33,9 +32,6 @@ function showQuestions() {
   const qs = questions[qsIndex];
   nextBtn.classList.add("hidden");
 
-  progressBar.max = questions.length;
-  progressBar.value = qsIndex + 1;
-
   questionElement.textContent = qs.text;
   optionsElement.innerHTML = "";
 
@@ -54,7 +50,6 @@ function handleAnswer(selectedButton, points) {
     button.disabled = true;
   });
   selectedButton.classList.add("text-accent");
-  progressBar.value = qsIndex + 1;
   nextBtn.classList.remove("hidden");
 }
 
@@ -97,11 +92,10 @@ restartBtn.addEventListener("click", startQuiz);
 
 async function loadQuestions() {
   try {
-    const response = await fetch("/src/questions.json");
+    const response = await fetch("/questions.json");
     const data = await response.json();
 
     questions = data;
-    maxScore = 30;
 
     showScreen(startScreen);
   } catch (error) {
