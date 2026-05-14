@@ -92,8 +92,7 @@ restartBtn.addEventListener("click", startQuiz);
 
 async function loadQuestions() {
   try {
-    // some env shenanigans because of github pages aaaaa
-    const response = await fetch(`${import.meta.env.BASE_URL}questions.json`);
+    const response = await fetch("/questions.json");
     const data = await response.json();
 
     questions = data;
