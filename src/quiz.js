@@ -38,7 +38,6 @@ function showQuestions() {
   qs.options.forEach((option) => {
     const btn = document.createElement("button");
     btn.textContent = option.text;
-    btn.classList.add("btn-ghost", "w-full");
     btn.addEventListener("click", () => handleAnswer(btn, option.points));
     optionsElement.appendChild(btn);
   });
