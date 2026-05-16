@@ -79,6 +79,17 @@ Some things I may add later:
 ## Screenshots
 
 - Landing page
+
 ![Hero Section](./assets/screenshots/landing.png)
+
+![Footer Section](./assets/screenshots/footer.png)
+
 - Quiz screen
+
+![Quiz Start](./assets/screenshots/quiz-start.png)
+
+![Quiz Screen](./assets/screenshots/quiz.png)
+
 - Result screen
+
+![Result Screen](./assets/screenshots/result.png)
