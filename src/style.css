@@ -1,5 +1,5 @@
-@import "tailwindcss";
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&family=Manrope:wght@200..800&display=swap");
+@import "tailwindcss";
 
 @theme {
   --color-background: oklch(0.2 0.012 186);
@@ -93,7 +93,7 @@
     @apply text-xl font-bold md:text-2xl;
   }
   .card-text {
-    @apply text-muted max-w-xs text-center font-mono text-sm leading-relaxed md:text-base;
+    @apply text-muted max-w-xs text-center font-mono text-sm md:text-base;
   }
 
   /* Quiz Page */
@@ -110,7 +110,7 @@
     @apply text-muted max-w-md text-center;
   }
   .quiz-question {
-    @apply text-center text-xl leading-snug font-bold md:text-2xl;
+    @apply text-left text-xl font-bold md:text-2xl;
   }
   .quiz-answers {
     @apply w-full;
@@ -125,6 +125,6 @@
     @apply text-muted text-lg;
   }
   .result-advice {
-    @apply text-sucess text-center font-bold;
+    @apply text-success text-center text-xl font-bold;
   }
 }

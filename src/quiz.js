@@ -44,7 +44,8 @@ function showQuestion() {
   resetSelection();
   const currentQuestion = questions[questionIndex];
 
-  questionElement.textContent = currentQuestion.text;
+  const questionWithNumber = `${questionIndex + 1}. ${currentQuestion.text}`;
+  questionElement.textContent = questionWithNumber;
   optionsElement.innerHTML = "";
 
   currentQuestion.options.forEach((option) => {
