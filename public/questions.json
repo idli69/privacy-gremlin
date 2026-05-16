@@ -1,210 +1,220 @@
 [
   {
-    "text": "How do you usually create passwords?",
+    "text": "When you sign up somewhere new, what do you do for the password?",
+    "category": "passwords",
     "options": [
       {
-        "text": "I reuse the same password everywhere",
+        "text": "Same one I use everywhere. It's a strong one.",
         "points": 0
       },
       {
-        "text": "I use small changes to the same password",
+        "text": "Tweak my usual one — add a number or change a letter",
         "points": 1
       },
       {
-        "text": "I create different passwords for important accounts",
+        "text": "Make something different for important accounts",
         "points": 2
       },
       {
-        "text": "I use a password manager with strong unique passwords",
+        "text": "Let my password manager generate a random one",
         "points": 3
       }
     ]
   },
   {
-    "text": "Do you use two-factor authentication?",
+    "text": "Do you use two-factor authentication — that extra code when you log in?",
+    "category": "2fa",
     "options": [
       {
-        "text": "No, I do not use it",
+        "text": "No, my password is enough",
         "points": 0
       },
       {
-        "text": "Only when a website forces me",
+        "text": "Only when a site forces me to",
         "points": 1
       },
       {
-        "text": "Yes, on my important accounts",
+        "text": "Yes — I get a text code on email and banking",
         "points": 2
       },
       {
-        "text": "Yes, with an authenticator app or security key",
+        "text": "Yes — I use an authenticator app or passkey",
         "points": 3
       }
     ]
   },
   {
-    "text": "What do you do before clicking a suspicious link?",
+    "text": "You get a text saying your bank account is locked — tap here to fix it. What do you do?",
+    "category": "phishing",
     "options": [
       {
-        "text": "I click it if it looks interesting",
+        "text": "Tap the link. It looks legitimate.",
         "points": 0
       },
       {
-        "text": "I check the message quickly",
+        "text": "Tap it, but check the page before typing anything",
         "points": 1
       },
       {
-        "text": "I check the sender and link preview",
+        "text": "Search for the bank's real website instead",
         "points": 2
       },
       {
-        "text": "I verify the source before opening anything",
+        "text": "Open the bank's official app and ignore the text",
         "points": 3
       }
     ]
   },
   {
-    "text": "How do you handle app permissions?",
+    "text": "A new app asks for your location, contacts, and microphone. What do you do?",
+    "category": "permissions",
     "options": [
       {
-        "text": "I allow whatever the app asks for",
+        "text": "Allow everything so it actually works",
         "points": 0
       },
       {
-        "text": "I allow permissions if the app seems safe",
+        "text": "Allow most things — I don't really read the prompts",
         "points": 1
       },
       {
-        "text": "I deny permissions that feel unnecessary",
+        "text": "Only allow what clearly makes sense for the app",
         "points": 2
       },
       {
-        "text": "I regularly review and remove unnecessary permissions",
+        "text": "Deny by default and review app permissions regularly",
         "points": 3
       }
     ]
   },
   {
-    "text": "How often do you update your apps and devices?",
+    "text": "Your phone has been asking you to update for two weeks. What happens?",
+    "category": "updates",
     "options": [
       {
-        "text": "Almost never",
+        "text": "I dismiss it. Updates always break something.",
         "points": 0
       },
       {
-        "text": "Only when something stops working",
+        "text": "I'll get to it eventually. Probably.",
         "points": 1
       },
       {
-        "text": "Every now and then",
+        "text": "I install it within a few days when I remember",
         "points": 2
       },
       {
-        "text": "Regularly, especially security updates",
+        "text": "Auto-updates are on — it just sorts itself out",
         "points": 3
       }
     ]
   },
   {
-    "text": "How do you use public Wi-Fi?",
+    "text": "You need to check your bank balance at a café. Free Wi-Fi is right there. What do you do?",
+    "category": "wifi",
     "options": [
       {
-        "text": "I log into anything normally",
+        "text": "Connect and log in to my bank — easy",
         "points": 0
       },
       {
-        "text": "I avoid banking but use other accounts",
+        "text": "Connect, but try to avoid banking on it",
         "points": 1
       },
       {
-        "text": "I avoid sensitive accounts on public Wi-Fi",
+        "text": "Only use it for non-sensitive stuff",
         "points": 2
       },
       {
-        "text": "I use mobile data or a trusted VPN for sensitive tasks",
+        "text": "Switch to mobile data for anything with a password",
         "points": 3
       }
     ]
   },
   {
-    "text": "How much personal info do you share on social media?",
+    "text": "What kind of stuff do you typically share on social media?",
+    "category": "social",
     "options": [
       {
-        "text": "A lot, including location and daily details",
+        "text": "Everything — location, school, daily plans, the lot",
         "points": 0
       },
       {
-        "text": "Some personal details without thinking much",
+        "text": "Quite a bit, but not my home address",
         "points": 1
       },
       {
-        "text": "I avoid sharing sensitive information",
+        "text": "General stuff only — no exact locations or schedules",
         "points": 2
       },
       {
-        "text": "I share very little and check privacy settings",
+        "text": "Minimal, and my profile is set to friends only",
         "points": 3
       }
     ]
   },
   {
-    "text": "What do you do when a website asks to save your card or login details?",
+    "text": "You just bought something from a small online shop. What did you do with your card?",
+    "category": "payment",
     "options": [
       {
-        "text": "I save them for convenience",
+        "text": "Saved it on the site — handy for next time",
         "points": 0
       },
       {
-        "text": "I save them on websites I use often",
+        "text": "I save cards on big sites but not this one",
         "points": 1
       },
       {
-        "text": "I avoid saving sensitive details on most websites",
+        "text": "Typed it in manually and didn't save",
         "points": 2
       },
       {
-        "text": "I use trusted tools and avoid saving details randomly",
+        "text": "Used Apple Pay or Google Pay — no card number shared",
         "points": 3
       }
     ]
   },
   {
-    "text": "How do you check if a website is trustworthy?",
+    "text": "You land on a page asking for your email and password. How do you decide if it's real?",
+    "category": "fake-sites",
     "options": [
       {
-        "text": "I do not check",
+        "text": "If it looks right, I just log in",
         "points": 0
       },
       {
-        "text": "I check if it looks professional",
+        "text": "I check if the logo and design look familiar",
         "points": 1
       },
       {
-        "text": "I check the URL and HTTPS lock",
+        "text": "I check the URL carefully before typing anything",
         "points": 2
       },
       {
-        "text": "I check the URL, HTTPS, reputation, and warning signs",
+        "text": "I close it and go to the site directly myself",
         "points": 3
       }
     ]
   },
   {
-    "text": "How do you deal with old accounts you no longer use?",
+    "text": "What happens to your old accounts from apps and sites you no longer use?",
+    "category": "cleanup",
     "options": [
       {
-        "text": "I leave them as they are",
+        "text": "They're still out there. I never think about it.",
         "points": 0
       },
       {
-        "text": "I forget about them unless there is a problem",
+        "text": "I've deleted a couple, but most just sit there",
         "points": 1
       },
       {
-        "text": "I delete some old accounts when I remember",
+        "text": "I delete accounts I haven't touched in a while",
         "points": 2
       },
       {
-        "text": "I regularly delete or secure unused accounts",
+        "text": "I audit old accounts and use a spare email for sign-ups",
         "points": 3
       }
     ]
