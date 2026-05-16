@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
 @import "tailwindcss";
 
 @theme {
@@ -19,15 +17,82 @@
   --font-mono: "JetBrains Mono", monospace;
 }
 
-@layer components {
-  .btn-primary {
-    @apply border-border hover:bg-accent hover:text-background hover:border-accent active:bg-accent active:text-background active:border-accent w-fit rounded-full border-2 px-6 py-2 text-center font-mono font-bold transition-all duration-300 ease-in-out hover:-translate-y-0.5;
+@layer base {
+  body {
+    @apply bg-background text-fg font-display;
   }
-  .btn-ghost {
-    @apply border-border hover:bg-accent hover:text-background hover:border-accent active:bg-accent active:text-background active:border-accent w-fit rounded-full border-2 px-5 py-3 text-center font-mono font-bold transition-all duration-300 ease-in-out hover:-translate-y-0.5;
+}
+
+@layer components {
+  /* Navbar Section */
+  .site-nav {
+    @apply bg-elevated flex min-h-[60px] items-center justify-between p-3;
+  }
+  .site-logo {
+    @apply flex items-center gap-2;
+  }
+  .logo-text {
+    @apply text-[clamp(1.25rem,4vw,2rem)] font-bold;
+  }
+  .nav-text {
+    @apply text-[clamp(0.8rem,3vw,1.2rem)];
+  }
+
+  /* Buttons */
+  .btn {
+    @apply border-border w-fit rounded-lg border-2 text-center font-mono font-bold transition duration-300 ease-in-out;
+  }
+  .btn-primary {
+    @apply bg-accent text-background border-accent px-5 py-2 hover:-translate-y-0.5 hover:opacity-90;
+  }
+  .btn-secondary {
+    @apply text-fg hover:bg-accent hover:text-background hover:border-accent px-5 py-2 hover:-translate-y-0.5;
+  }
+  .btn-option {
+    @apply bg-surface text-fg border-border font-display hover:bg-elevated hover:border-accent w-full rounded-xl px-4 py-3 text-left font-medium;
+  }
+
+  /* Hero section */
+  .hero-grid {
+    @apply grid min-h-[calc(100vh-60px)] grid-cols-1 gap-8 px-4 py-8 md:grid-cols-5 md:items-center md:px-8 md:py-20;
+  }
+  .hero-img {
+    @apply order-1 flex justify-center md:col-span-2 md:justify-end;
+  }
+  .hero-text {
+    @apply order-2 flex max-w-xl flex-col items-center space-y-5 text-center md:col-span-3 md:w-fit md:items-start md:text-left;
+  }
+  .hero-title {
+    @apply text-[clamp(2rem,4vw,3.3rem)] font-bold;
+  }
+  .hero-desc {
+    @apply text-accent-dark text-[clamp(.85rem,2.5vw,1.5rem)];
+  }
+  .hero-gremlin {
+    @apply w-60 max-w-full md:w-72 lg:w-80;
+  }
+
+  /* Guide Section */
+  .guide-section {
+    @apply flex min-h-screen flex-col items-center justify-center px-6 py-16 md:px-8;
+  }
+  .guide-grid {
+    @apply grid w-full max-w-4xl grid-cols-1 gap-6 lg:grid-cols-2;
+  }
+  .guide-grid .card:first-child {
+    @apply lg:col-span-2 lg:mx-auto lg:w-1/2;
   }
   .card {
-    @apply bg-surface border-border flex flex-col items-center justify-center gap-4 rounded-xl border-2 p-8;
+    @apply bg-surface border-border flex flex-col items-center justify-center gap-4 rounded-xl border-2 p-6 text-center md:p-8;
+  }
+  .guide-icon {
+    @apply w-14 md:w-16;
+  }
+  .card-title {
+    @apply text-xl font-bold md:text-2xl;
+  }
+  .card-text {
+    @apply text-muted max-w-xs text-center font-mono text-sm leading-relaxed md:text-base;
   }
 }
 

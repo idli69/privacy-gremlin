@@ -4,106 +4,84 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/src/style.css" />
+    <!-- Link Manrope and JetBrainsMono Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
     <title>Privacy Gremlin</title>
   </head>
-  <body class="bg-background text-fg font-display">
+  <body>
     <!--NAVBAR SECTION BEGIN-->
-    <nav class="bg-elevated flex min-h-15 items-center justify-between p-3">
-      <div class="flex items-center gap-1">
+    <nav class="site-nav">
+      <div class="site-logo">
         <img
           src="./assets/images/gremlins/magnifying.png"
           alt="Gremlin picture"
-          class="mr-1 w-10"
+          class="w-10"
         />
-        <p class="text-[clamp(1.25rem,4vw,2rem)] font-bold">Privacy Gremlin</p>
+        <p class="logo-text">Privacy Gremlin</p>
       </div>
-
-      <a class="btn-primary text-[clamp(0.8rem,3vw,1.2rem)]" href="quiz.html">
-        Take Quiz
-      </a>
+      <a class="btn btn-secondary nav-text" href="quiz.html">Take Quiz</a>
     </nav>
     <!--NAVBAR SECTION END-->
     <!--HERO SECTION BEGIN-->
-    <section
-      id="hero"
-      class="grid min-h-[calc(100vh-60px)] grid-cols-1 gap-8 px-4 py-8 md:grid-cols-5 md:items-center md:px-8 md:py-20"
-    >
-      <div
-        id="hero-img"
-        class="order-1 flex justify-center md:col-span-2 md:justify-end"
-      >
+    <section class="hero-grid">
+      <div class="hero-img">
         <img
           src="./assets/images/gremlins/gremlin-hero.png"
           alt="Hero Gremlin Image"
-          class="w-60 max-w-full md:w-72 lg:w-80"
+          class="w-fit"
         />
       </div>
-      <div
-        id="hero-text"
-        class="order-2 flex max-w-xl flex-col items-center space-y-5 text-center md:col-span-3 md:items-start md:text-left"
-      >
-        <h1 class="text-[clamp(2rem,4vw,3.2rem)] font-bold">
-          Find out how cursed your privacy habits are.
-        </h1>
-        <p class="text-accent-dark text-[clamp(.85rem,2.5vw,1.5rem)]">
+      <div class="hero-text">
+        <h1 class="hero-title">Find out how cursed your privacy habits are.</h1>
+        <p class="hero-desc">
           A tiny privacy checkup for people who know they should be more careful
           online, but keep ignoring it.
         </p>
-        <a class="btn-ghost text-xl" href="quiz.html">Quiz Yourself</a>
+        <a class="btn btn-secondary" href="quiz.html">Quiz Yourself</a>
       </div>
     </section>
     <!--HERO SECTION END-->
 
     <!--HOW IT WORKS SECTION START-->
-    <section
-      id="guide"
-      class="flex min-h-screen flex-col items-center justify-center gap-6 px-8 py-8"
-    >
-      <div class="flex w-full flex-col gap-6 md:w-3xl">
-        <div class="card flex-1">
+    <section id="guide" class="guide-section">
+      <div class="guide-grid">
+        <div class="card">
           <img
             src="./assets/images/gremlins/magnifying.png"
             alt="Take the quiz"
-            class="w-16"
+            class="guide-icon"
           />
-          <h3 class="text-[clamp(.85rem,2.5vw,1.5rem)] font-bold">
-            Take the Quiz
-          </h3>
-          <p
-            class="text-muted text-center font-mono text-[clamp(.65rem,1.5vw,1rem)]"
-          >
+          <h3 class="card-title">Take the Quiz</h3>
+          <p class="card-text">
             Answer a few quick questions about your habits.
           </p>
         </div>
-        <div class="card flex-1">
+
+        <div class="card">
           <img
             src="./assets/images/gremlins/magnifying.png"
             alt="Get your score"
-            class="w-16"
+            class="guide-icon"
           />
-          <h3 class="text-[clamp(.85rem,2.5vw,1.5rem)] font-bold">
-            Get Your Score
-          </h3>
-          <p
-            class="text-muted text-center font-mono text-[clamp(.65rem,1.5vw,1rem)]"
-          >
+          <h3 class="card-title">Get Your Score</h3>
+          <p class="card-text">
             See how cursed your privacy habits really are.
           </p>
         </div>
-        <div class="card flex-1">
+
+        <div class="card">
           <img
             src="./assets/images/gremlins/magnifying.png"
             alt="Fix your privacy"
-            class="w-16"
+            class="guide-icon"
           />
-          <h3 class="text-[clamp(.85rem,2.5vw,1.5rem)] font-bold">
-            Fix Your Privacy
-          </h3>
-          <p
-            class="text-muted text-center font-mono text-[clamp(.65rem,1.5vw,1rem)]"
-          >
-            Get simple tips to actually improve.
-          </p>
+          <h3 class="card-title">Fix Your Privacy</h3>
+          <p class="card-text">Get simple tips to actually improve.</p>
         </div>
       </div>
     </section>

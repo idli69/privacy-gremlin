@@ -35,6 +35,7 @@ function showQuestions() {
   questionElement.textContent = qs.text;
   optionsElement.innerHTML = "";
 
+  optionsElement.classList.add("btn btn-option");
   qs.options.forEach((option) => {
     const btn = document.createElement("button");
     btn.textContent = option.text;
