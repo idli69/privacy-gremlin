@@ -71,7 +71,7 @@ Follow these steps to set up and run the project on your local machine:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com
+   git clone https://github.com/idli69/privacy-gremlin.git
    cd privacy-gremlin
    ```
 
@@ -93,8 +93,10 @@ Follow these steps to set up and run the project on your local machine:
 - Landing page
 
 ![Hero Section](./assets/screenshots/landing.png)
-
 ![Footer Section](./assets/screenshots/footer.png)
+
+![Hero Section](./assets/screenshots/hero.png)
+![Footer Section](./assets/screenshots/hero-footer.png)
 
 - Quiz screen
 
@@ -102,6 +104,10 @@ Follow these steps to set up and run the project on your local machine:
 
 ![Quiz Screen](./assets/screenshots/quiz.png)
 
+![Quiz Screen](./assets/screenshots/resp-quiz.png)
+
 - Result screen
 
 ![Result Screen](./assets/screenshots/result.png)
+
+![Result Screen](./assets/screenshots/resp-result.png)
