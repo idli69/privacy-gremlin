@@ -27,7 +27,7 @@
 @layer components {
   /* Navbar Section */
   .site-nav {
-    @apply bg-elevated flex min-h-[60px] items-center justify-between p-3;
+    @apply bg-elevated flex min-h-15 items-center justify-between p-3;
   }
   .site-logo {
     @apply flex items-center gap-2;
