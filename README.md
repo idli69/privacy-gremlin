@@ -88,18 +88,6 @@ Follow these steps to set up and run the project on your local machine:
 4. **Open the application**
    Navigate to the local URL (usually `http://localhost:3000`) provided in your terminal.
 
-## Running locally
-
-1. Clone the repository
-
-`git clone https://www.github.com/idli69/privacy-gremlin.git`
-
-2. Install dependencies
-`npm install`
-3. Start the development server
-`npm dev`
-4. Open the local URL in your browser
-
 ## Screenshots
 
 - Landing page
