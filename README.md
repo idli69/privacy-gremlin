@@ -79,5 +79,6 @@ Some things I may add later:
 ## Screenshots
 
 - Landing page
+![Hero Section](./assets/screenshots/landing.png)
 - Quiz screen
 - Result screen
