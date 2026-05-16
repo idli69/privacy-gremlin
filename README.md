@@ -64,6 +64,30 @@ Some things I may add later:
 - More gremlin reactions based on the user’s result
 - Improved accessibility
 
+
+### Running Locally
+
+Follow these steps to set up and run the project on your local machine:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com
+   cd privacy-gremlin
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open the application**
+   Navigate to the local URL (usually `http://localhost:3000`) provided in your terminal.
+
 ## Running locally
 
 1. Clone the repository
